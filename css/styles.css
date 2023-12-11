@@ -168,6 +168,10 @@ font-style: normal;
 font-weight: 700;
 line-height: 107.143%;
 letter-spacing: 1.12px;
+padding: 60px 56px;
+align-items: center;
+justify-content: center;
+max-width:496px;
 }
 
 .subtitle-web-studio-blue
@@ -209,9 +213,13 @@ margin-bottom:72px;
 }
 
 .team-member {
-    background-color: #ffffffff;
+  background-color: #ffffffff;
+  width: calc((100% - 72px) / 4);
+  width:100%;
+  min-width:264px;
+  border-radius: 0px 0px 4px 4px;
+  display:block;
 }
-
 .background-white {
     background-color: #ffffffff;
 }
@@ -343,13 +351,6 @@ margin-bottom:72px;
   padding-top: 96px;
   padding-bottom:120px;
 }
-.team-member-radius{
-  border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
-  width:100%;
-  min-width:264px;
-  display:block;
-}
 .section-three-img{
   display: block;
   width:calc((100%-48px)/ 3);
@@ -365,15 +366,9 @@ margin-bottom:72px;
   border-radius: 4px;
   border: 1px solid #e7e9fc;
 }
-.section-two-li{
-  width:calc((100% - 72px) / 4);
-}
-.section-three-li{
-  width:calc((100% - 48px) / 3);
-}
-.section-four-li{
-  width:calc((100% - 72px)/4);
-}
-.section-portfolio-li{
-  width:calc((100% - 48px) / 3);
+.portfolio-image{
+  display: block;
+  width:calc((100%-48px)/ 3);
+  width:100%;
+  min-width:264;
 }
