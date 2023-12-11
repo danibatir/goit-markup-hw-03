@@ -306,6 +306,7 @@ margin-bottom:72px;
   margin-bottom:72px;
   column-gap:24px;
   row-gap:48px;
+  flex-basis:calc((100% - 48px) / 3);
 }
 .item:last-child{
   margin-right:0;
@@ -317,7 +318,6 @@ margin-bottom:72px;
   display:block;
 }
 .space-title-paragraf{
-  width: calc((100%-72px)/4);
   width: 100%;
   min-width: 264px;
 }
