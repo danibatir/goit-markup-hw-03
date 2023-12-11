@@ -69,6 +69,7 @@ body {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.32px;
+  padding:24px 0
 }
 .font {
   font-style: normal;
@@ -291,6 +292,11 @@ align-items: center;
 .card-set {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap:48px;
+  margin-left:-10px;
+  margin-top:-10px;
+
 }
 .item {
   margin-right:24px;
@@ -307,9 +313,15 @@ align-items: center;
 }
 .images{
   display:block;
+  width: calc((100% - 48px) / 3);
+  width:100%;
+  min-width:264px;
 }
 .space-title-paragraf{
   margin-bottom: 8px;
+  width: calc((100%-72px)/4);
+  width: 100%;
+  min-width: 264px;
 }
 .div{
   padding:32px 0;
@@ -318,4 +330,25 @@ align-items: center;
   padding:32px 16px;
   border: 1px solid #e7e9fc;
   border-top:none;
+}
+.link-footer{
+  display:inline-block;
+}
+.section-one{
+  padding:188px 0;
+}
+.section-two{
+  padding: 120px 0;
+}
+.section-three{
+  padding-bottom:120px;
+}
+.section-four{
+  padding: 120px 0;
+}
+.section-portfolio{
+  padding:24px 0;
+}
+.team-member-radius{
+  border-radius: 0px 0px 4px 4px;
 }
