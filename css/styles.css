@@ -93,13 +93,17 @@ body {
   line-height: 1.5;
   font-size: 16px;
   font-weight: 500;
-  justify-content: center;
   display:flex;
+  justify-content: center;
   padding: 12px 24px;
-  margin-bottom:72px;
-  border:1px solid;
+  margin-bottom: 72px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  gap: 24px;
 }
-
+.button:last-child{
+  margin-bottom: 72px;
+}
 .button:hover,
 :focus {
   color: #ffffffff;
@@ -137,7 +141,7 @@ background-color: #404bbf;
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.4px;
-  text-align:center;
+  text-align: center;
   margin-bottom: 8px;
 }
 .title-two{
@@ -329,7 +333,6 @@ margin-bottom:72px;
 .link-footer{
   display:inline-block;
   margin-bottom: 16px;
-  padding: 21px 18px;
 }
 .section-one{
   padding:188px 0;
