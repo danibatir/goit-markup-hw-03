@@ -266,7 +266,6 @@ margin-bottom:72px;
   display:flex;
   justify-content: flex-start;
   gap:24px;
-  width:calc((100%-72px)/4);
 }
 .visually-hidden {
   position: absolute;
@@ -285,7 +284,6 @@ margin-bottom:72px;
   display:flex;
   padding-bottom: 120px;
   gap: 24px;
-  width: calc((100% - 48px) / 3);
 }
 .hero-footer{
   padding:100px 1020px 100px 156px;
@@ -353,9 +351,9 @@ margin-bottom:72px;
 }
 .section-three-img{
   display: block;
-  width:calc((100%-48px)/ 3);
-  width:100%;
-  min-width:264;
+  width: calc((100% - 48px) / 3);
+  width: 100%;
+  min-width: 264;
 }
 .buttons-list{
   display:flex;
@@ -368,7 +366,7 @@ margin-bottom:72px;
 }
 .portfolio-image{
   display: block;
-  width:calc((100%-48px)/ 3);
+  width: calc((100%-48px)/ 3);
   width:100%;
   min-width:264;
 }
