@@ -94,6 +94,10 @@ body {
   font-size: 16px;
   font-weight: 500;
   justify-content: center;
+  display:flex;
+  padding: 12px 24px;
+  margin-bottom:72px;
+  border:1px solid;
 }
 
 .button:hover,
@@ -280,12 +284,7 @@ margin-bottom:72px;
   border:1px solid #e7e9fc;
   border-radius:4px;
 }
-.style-buttons{
-  display:flex;
-padding: 12px 24px;
-justify-content: center;
-align-items: center;
-}
+
 .image-description{
   padding-bottom:8px;
 }
@@ -313,12 +312,8 @@ align-items: center;
 }
 .images{
   display:block;
-  width: calc((100% - 48px) / 3);
-  width:100%;
-  min-width:264px;
 }
 .space-title-paragraf{
-  margin-bottom: 8px;
   width: calc((100%-72px)/4);
   width: 100%;
   min-width: 264px;
@@ -333,6 +328,8 @@ align-items: center;
 }
 .link-footer{
   display:inline-block;
+  margin-bottom: 16px;
+  padding: 21px 18px;
 }
 .section-one{
   padding:188px 0;
@@ -347,8 +344,19 @@ align-items: center;
   padding: 120px 0;
 }
 .section-portfolio{
-  padding:24px 0;
+  padding-top: 96px;
+  padding-bottom:120px;
 }
 .team-member-radius{
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+  width:100%;
+  min-width:264px;
+  display:block;
+}
+.section-three-img{
+  display: block;
+  width:calc((100%-48px)/ 3);
+  width:100%;
+  min-width:264;
 }
