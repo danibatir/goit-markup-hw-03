@@ -372,3 +372,6 @@ margin-bottom:72px;
   width:100%;
   min-width:264;
 }
+.footer-container{
+  display: inline-block;
+}
