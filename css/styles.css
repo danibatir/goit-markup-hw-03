@@ -303,15 +303,9 @@ margin-bottom:72px;
 
 }
 .item {
-  margin-right:24px;
-  justify-content:center;
-  margin-bottom:72px;
-  column-gap:24px;
-  row-gap:48px;
-  flex-basis:calc((100% - 48px) / 3);
-}
-.item:last-child{
-  margin-right:0;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: calc((100% - 48px) / 3);
 }
 .card-set:last-child{
   padding-bottom:120px;
